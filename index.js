@@ -11,7 +11,7 @@ function snake()
 {
 
   s.style.left=increment+"px";
-  increment++;
+  increment+=5;
 
 }
-setInterval(snake,10)
+setInterval(snake,600)
