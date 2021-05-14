@@ -12,6 +12,10 @@ function snake()
 
   s.style.left=increment+"px";
   increment+=5;
-
 }
-setInterval(snake,600)
+function k(e)
+{
+  console.log("key is :"+e.key);
+}
+addEventListener()
+//setInterval(snake,600)
