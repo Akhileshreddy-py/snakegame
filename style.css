@@ -3,7 +3,7 @@ h1, h2 {
 }
 #snake
 {
-  
+position:absolute;
 width:6px;
 height:6px;
 background-color:red;
