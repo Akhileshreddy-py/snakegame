@@ -7,15 +7,18 @@ var increment=0;
 var s=document.getElementById("snake");
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>JS Starter</h1>`;
-function snake()
+function snake(e)
 {
 
   s.style.left=increment+"px";
   increment+=5;
 }
 function k(e)
+{ if(e.key=="ArrowUp")
 {
-  console.log("key is :"+e.key);
+  console.log(e.key);
 }
-addEventListener()
+ console.log(e.key);
+}
+addEventListener("keydown",k,false);
 //setInterval(snake,600)
